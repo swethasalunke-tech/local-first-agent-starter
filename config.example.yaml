@@ -1,0 +1,12 @@
+# Example config for local_agent, tuned for a default Ollama install.
+#
+# Copy this file to config.yaml (or any path) and adjust as needed:
+#   cp config.example.yaml config.yaml
+#
+# model_name must match a model you have pulled locally, e.g.:
+#   ollama pull llama3.2
+
+model_name: llama3.2
+backend_url: http://localhost:11434
+temperature: 0.7
+max_tokens: 512
